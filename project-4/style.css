@@ -1,0 +1,217 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'inter';
+}
+.head-sec{
+    width: 100%;
+    float: left;
+    height: 100vh;
+    background-color:#000000;
+    position: fixed;
+}
+.menu-sec {
+    width: 75%;
+    float: left;
+}
+.st-menu-sec{
+    width: 100%;
+    float: left;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+.c-logo {
+    width: 35%;
+    padding-left: 20px;
+    float: left;
+}
+.logo-img {
+    width: 47%;
+    float: left;
+}
+.new-menu-wid {
+    padding-left: 184px;
+    float: left;
+    width: 65%;
+}
+.menu-icon-sec{
+    width: 5%;
+    float: left;
+    margin-left: 10px;
+    margin-top: 8px;
+}
+
+.svg-icon-1{
+  fill:white;
+}
+.svg-icon-2{
+    fill:white;
+}
+.svg-icon-3{
+    fill:white;
+}
+.svg-icon-4{
+    fill:white;
+  }
+.svg-icon-5{
+    fill:white;
+}
+.svg-icon-6{
+    fill:white;
+}
+.menu-button {
+    width: 39%;
+    float: left;
+    padding-left: 20px;
+ 
+}
+.menu-button button {
+    font-weight: 800;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 20px;
+    border-radius: 20px;
+    padding-right: 20px;
+    background-color: unset !important;
+    color: white;
+    border: 2px solid white;
+}
+.menu-sec h4 {
+    font-weight: 500;
+    padding-top: 184px;
+    padding-left: 74px;
+    color: #ff23b9f7;
+}
+
+.menu-sec h1 {
+    width: 80%;
+    font-size: 45px;
+    font-weight: 800;
+    padding-top: 50px;
+    padding-left: 70px;
+    color: white;
+}
+.new-icon-curs{
+    width: 100%;
+    padding-left: 60px;
+    padding-top: 100px;
+    float: left;
+}
+.new-icon-curs svg{
+    background-color:white;
+    border-radius: 25px;
+    fill:black;
+}
+.new-icon-curs-con{
+    padding-left: 20px;
+    font-size: 20px;
+    color: white;
+}
+/* section right */
+
+.sticky-menu-right {
+    width: 25%;
+    float: left;
+    /* position: relative;
+    background-color: hsl(222, 62%, 44%); */
+
+}
+.sticky-menu-right .sticky-menu-nav {
+    float: left;
+    width: 100%;
+
+}
+.bg-img {
+    /* background-image: linear-gradient(to bottom,hsl(222, 62%, 44%)4%), url(https://images.pexels.com/photos/869258/pexels-photo-869258.jpeg?auto=compress&cs=tinysrgb&w=600); */
+    /* background-image: linear-gradient(to top ,hsl(222, 62%, 44%)40%,transparent 50%),url(https://images.pexels.com/photos/869258/pexels-photo-869258.jpeg?auto=compress&cs=tinysrgb&w=600);
+    */
+     /* background-image: linear-gradient(to bottom ,rgb(43, 84, 182),rgb(43, 84, 182)),url(https://images.pexels.com/photos/869258/pexels-photo-869258.jpeg?auto=compress&cs=tinysrgb&w=600);
+      */
+      background-image: url(https://images.pexels.com/photos/869258/pexels-photo-869258.jpeg?auto=compress&cs=tinysrgb&w=600g);
+       /* background-image: url(https://images.pexels.com/photos/869258/pexels-photo-869258.jpeg?auto=compress&cs=tinysrgb&w=600g);
+     -webkit-mask-image: linear-gradient(to bottom, transparent -85%,rgb(43, 84, 182) 100%);
+     mask-image: linear-gradient(to bottom, transparent 5%,rgb(43, 84, 182) 35%);
+     */
+     /* position: absolute;
+     top: 50%;
+     left: 50%;
+     background-color: hsl(222, 62%, 44%);
+     transform: translate(-50%,0%);
+     -ms-transform: translate(-50%,-50%); */
+     background: hwb(222 17% 29%);
+     background-position: center;
+     background-size: cover;
+     height: 636px;
+     width: 100%;
+     background-repeat: no-repeat;
+     opacity: 0.5;
+   
+ }
+
+
+.tog-btnn {
+    border: unset !important;
+    --bs-navbar-toggler-focus-width: 0px;
+    border-radius: 30px;
+    background-color: black;
+    color: white !important;
+}
+.icon-tog {
+    width: 1.3em;
+    height: 2em;
+    background-size: 90%;
+}
+/* back page*/
+
+.offcanvas{
+    --bs-offcanvas-width: 100% !important;
+}
+.new-canvas-body {
+  width: 100%;
+  float: left;
+  padding:0px !important; 
+   overflow-y: auto;
+}
+
+.canvas-parent{
+    width: 25%;
+    float: left;
+}
+.menu-bar{
+    width: 75%;
+    float: left;
+
+}
+.canvas-bg-set {
+    background-image: linear-gradient(to top,hsl(222, 62%, 44%)5%, transparent 71%), url(https://images.unsplash.com/photo-1538367999111-0d6c7fb0299f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+    background-position: center;
+    background-size: cover;
+    height: 636px;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+
+.menu-bar button{
+    color: #ffffff !important;
+}
+.menu-bar ul {
+    padding-top: 70px;
+    padding-left: 70px;
+}
+.menu-bar ul li a{
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 700;
+}
+.btn-close {
+    float: right !important;
+    background-color: #ffffff;
+    margin-top: 20px;
+    margin-right: 20px;
+    
+}
+
